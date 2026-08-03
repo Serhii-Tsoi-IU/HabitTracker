@@ -45,17 +45,6 @@ python -m habit_tracker complete meditate --at 2026-07-30T08:00:00
 python -m habit_tracker delete meditate
 ```
 
-`python main.py …` does the same thing – it's just a convenience launcher
-that some IDEs like better.
-
-The database defaults to `~/.habit_tracker.db`. Override it with the top
-level `--db` option:
-
-```bash
-python -m habit_tracker --db ./my.db seed
-python -m habit_tracker --db ./my.db list
-```
-
 ## Analytics
 
 ```bash
